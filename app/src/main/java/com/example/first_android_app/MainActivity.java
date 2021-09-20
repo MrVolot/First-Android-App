@@ -19,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
         TextView text = (TextView) findViewById(R.id.textView);
         text.setText("Button was clicked");
     }
-
+    public void onClick2(View view) {
+        TextView text = (TextView) findViewById(R.id.textView);
+        text.setTextColor(Color.GREEN);
+    }
 }
